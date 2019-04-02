@@ -13,11 +13,11 @@ addLocaleData(enLocaleData);
 
 
 function langSelector(){
-   if (window.navigator.language==="en-US") {
-       console.log(window.navigator.language)
+   if (navigator.language==="en") {
+       console.log(navigator.language)
         return (localeEnMessages);
    }else{
-    console.log(window.navigator.language)
+    console.log(navigator.language)
         return localeEsMessages;
    }
 
